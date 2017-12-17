@@ -4,3 +4,4 @@ Small projects built during front-end web development course
 - [Gym Coming Soon template](gymCominSoon)
 - [MurghRestro Home Page](MurghRestro)
 - [To-Do List](toDoList)
+- [Technical(home) page](technicalLanding)
