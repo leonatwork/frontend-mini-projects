@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url("../images/bg1.jpg") no-repeat black;
+/*    background: url("https://images.unsplash.com/photo-1425342605259-25d80e320565");*/
+    background-size: cover;
+    background-position: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+
+.center {
+    padding-top: 8%;
+}
+
+#login {
+    min-width: 217px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 14px 14px 10px;
+}
+
+.btn-fb {
+    margin-top: 10px;
+    color: white;
+    background-color: #4d68a5;
+}
+
+.btn-tw {
+    margin-top: 10px;
+    color: white;
+    background-color: #47a1eb;
+}
+
+.btn-fb:hover {
+    background-color: white;
+    color: #4d68a5;
+}
+
+.btn-tw:hover {
+    color: #47a1eb;
+    background-color: white;
+}
+
+@media (max-width: 750px) {
+    h2 {
+        text-align: center;
+        color: black;
+        opacity: 0.8;
+    }
+    h1 {
+        text-align: center;
+        background-color: black;
+        border-radius: 15px;
+        opacity: 0.8
+    }
+}
+
+@media (max-width: 400px) {
+    p {
+        text-align: center;
+        padding-bottom: 15px;
+        background-color: black;
+        opacity: 0.8;
+        border-radius: 15px;
+
+    }
+    .but {
+        margin-left: 34%;
+    }
+    
+}
