@@ -5,3 +5,4 @@ Small projects built during front-end web development course
 - [MurghRestro Home Page](MurghRestro)
 - [To-Do List](toDoList)
 - [Technical(home) page](technicalLanding)
+- [Pokemon Company page](pokemonCompany)
