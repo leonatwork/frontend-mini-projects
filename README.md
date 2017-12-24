@@ -6,3 +6,4 @@ Small projects built during front-end web development course
 - [To-Do List](toDoList)
 - [Technical(home) page](technicalLanding)
 - [Pokemon Company page](pokemonCompany)
+- [Selling Yahoo page](sellYahoo)
