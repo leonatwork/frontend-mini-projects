@@ -1,0 +1,33 @@
+body {
+    font-family: 'Rosario', sans-serif;
+    background: linear-gradient(lightgray,white);
+}
+
+.nav-sidebar {
+    margin: 80px -20px 20px 20px;
+}
+
+.nav-sidebar > li > a {
+    padding: 20px 20px;
+}
+
+.main {
+    margin-top: 50px;
+/*    background-color: lightgray;*/
+    padding: 20px;
+}
+
+.placeholders {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.placeholder {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.placeholder img {
+    display: inline;
+    border-radius: 50%;
+}
