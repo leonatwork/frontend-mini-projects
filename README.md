@@ -8,3 +8,4 @@ Small projects built during front-end web development course
 - [Pokemon Company page](pokemonCompany)
 - [Selling Yahoo page](sellYahoo)
 - [Admin dashboard](adminDashboard)
+- [Password Generator](passGen)
