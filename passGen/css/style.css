@@ -1,0 +1,50 @@
+body {
+    background: url("../images/pexels-photo-164425.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    color: 
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 3em;
+}
+
+.out {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: forestgreen;
+    opacity: 0.8;
+}
+
+.myBtn {
+    padding: 20px 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.pass {
+    width: 400px;
+    float: left;
+    font-size: 30px;
+    color: lightcyan;
+    margin-left: 0;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 15px;
+}
+
+.in{
+    margin: 0;
+    padding: 9px;
+    float: right;
+    text-align: center;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 15px;
+}

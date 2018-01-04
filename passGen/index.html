@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Random password Generator</title>
+
+	<!--  -->
+
+	<script>
+        var keyList = "abcdefghijklmnopqrstuvwxyz!@#$%^&*";
+        var tmp = "";
+        function generatePass(plength) {
+            tmp="";
+            for(i = 0;i < plength;i++) {
+                tmp += keyList.charAt(Math.floor(Math.random()*keyList.length));
+            }
+            return tmp;
+        }
+        function populateForm(enterLength) {
+            document.passGen.output.value = generatePass(enterLength);
+        }
+    </script>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+    <form action="" name="passGen">
+       <div class="col-xs-12">
+           <input type="text" size="18" name="output" class="out" disabled>
+        <input type="button" value="Generate password" onclick="populateForm(this.form.length.value)" class="btn btn-success btn-block myBtn"><br>
+        <div class="col-xs-10"><strong class="pass">Password length :</strong></div>
+        <div class="col-xs-2"><input type="text" name="length" size="3" value="6" class="in"></div>
+       </div>
+        
+    </form>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
