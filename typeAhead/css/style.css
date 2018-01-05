@@ -1,0 +1,11 @@
+#the-basics {
+    font-size: 2em;
+}
+
+#the-basics input {
+    margin-left: 20px;
+}
+
+.tt-dataset{
+    padding-left: 20px;
+}
