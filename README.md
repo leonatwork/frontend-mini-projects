@@ -10,3 +10,4 @@ Small projects built during front-end web development course
 - [Admin dashboard](adminDashboard)
 - [Password Generator](passGen)
 - [Type ahead](typeAhead)
+- [Image Slider](imgSlider)
