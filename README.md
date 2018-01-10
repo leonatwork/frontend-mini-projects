@@ -9,3 +9,4 @@ Small projects built during front-end web development course
 - [Selling Yahoo page](sellYahoo)
 - [Admin dashboard](adminDashboard)
 - [Password Generator](passGen)
+- [Type ahead](typeAhead)
