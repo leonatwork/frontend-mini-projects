@@ -12,3 +12,4 @@ Small projects built during front-end web development course
 - [Type ahead](typeAhead)
 - [Image Slider](imgSlider)
 - [Javascript Clock](tickyClock)
+- [To-do list App](TODO)
