@@ -11,3 +11,4 @@ Small projects built during front-end web development course
 - [Password Generator](passGen)
 - [Type ahead](typeAhead)
 - [Image Slider](imgSlider)
+- [Javascript Clock](tickyClock)
