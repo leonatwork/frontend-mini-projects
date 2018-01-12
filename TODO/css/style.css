@@ -1,0 +1,28 @@
+* {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin: 40px;
+}
+
+#userInput {
+    width: 350px;
+    height: 35px;
+    display: inline-block
+}
+
+.btn {
+    margin: 20px 5px;
+}
+
+.form-control {
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
